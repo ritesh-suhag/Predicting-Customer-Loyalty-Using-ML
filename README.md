@@ -196,7 +196,7 @@ data_for_model.drop("customer_id", axis = 1, inplace = True)
 data_for_model = shuffle(data_for_model, random_state = 42)
 
 ```
-<br>
+
 ### Data Preprocessing <a name="linreg-preprocessing"></a>
 
 For Linear Regression we have certain data preprocessing steps that need to be addressed, including:
